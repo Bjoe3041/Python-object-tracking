@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+*.egg-info/
+
+# YOLO training runs (Data from overview page is from 10 epochs of training) 
+runs/
+
+# Datasets (large binary files)
+combination_dataset/
+uav_dataset/
+datasets/
+objects/
+objects_cleaned/
+backgrounds/
+unused/
+
+
+# Generated outputs
+evaluation/
+
+# Model weights (large binaries — commit only intentionally)
+*.pt
+*.onnx
+*.torchscript
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.suo
+*.user
